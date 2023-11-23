@@ -1,4 +1,4 @@
-// fetch product********************
+// fetch product*********************
 
 async function fetchProducts(searchProduct = "") {
     try {
