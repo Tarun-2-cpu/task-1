@@ -171,7 +171,7 @@ fetchCategories()
         showCategory(categories);
     })
     .catch((error) => {
-        console.log("Error:", error);
+        console.log("Error:");
     });
 
 
@@ -252,7 +252,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
             });
         })
-        .catch((error) => console.log("Error:", error));
+        .catch((error) => console.log("Error:"));
 
 
 
